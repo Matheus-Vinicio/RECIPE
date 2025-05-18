@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'Fonte-1';
+  src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Fonte-2';
+  src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    
+}
+img{
+    padding: 0px;
+    border-radius: 10px;
+    max-width: 1000px;
+    min-width: 100px;
+    size: 100%;
+}
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    max-width: 700px;
+    min-height: 100px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 40px;
+    overflow-x: hidden;
+}
+.ingredients, .instruction {
+    box-shadow: 0px 1px 0px 0px rgba(24, 24, 24, 0.165);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.nutrition{
+    padding-top: 10px
+}
+body{
+    display: block;
+    background-color: #f3e5d8;
+    margin: auto;
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+ul, ol{
+    padding-left: 20px;
+}
+li{
+     padding: 20px 5px 0px 5px;
+}
+ol li::marker{
+    color: #844c3a;
+    font-family: 'Fonte-1', sans-serif;
+    font-weight: bold;
+}
+h1{
+    font-family: 'Fonte-2', sans-serif;
+    font-weight: 500;
+    color: rgb(58, 58, 58);
+}
+p{
+    font-family: 'Fonte-1', sans-serif;
+    color:  rgb(71, 71, 71);
+    font-size: medium;
+    padding-top: 10px;
+    padding-BOTTOM: 10px;
+}
+.preparation{
+    background-color: #f8e9f2;
+    border-radius: 20px;
+    padding: 10px;
+}
+.preparation> li{
+    padding-left: 20px;
+}
+.instruction > ul{
+    list-style-type:decimal;
+}
+h3{
+    font-family: 'Fonte-1', sans-serif;
+    font-weight: 500;
+    color: #792e4b;
+}
+li > p {
+    font-family: 'Fonte-1', sans-serif;
+    color:  rgb(71, 71, 71);
+    font-size: medium;
+    padding: 5px;
+    text-indent: 10px;
+    display: inline;
+
+}
+h2{
+    color: #844c3a;
+    font-family: 'Fonte-2', sans-serif;
+    font-weight: 300;
+}
+.ingredients > li  {
+    font-family: 'Fonte-', sans-serif;
+    color:  rgb(71, 71, 71);
+    font-size: medium;
+    padding:5px;
+    text-indent: 10px;
+    display: inline-flex;
+}
+
+td{
+    font-family: 'Fonte-1', Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(97, 97, 97);
+    padding-right: 22vh;
+    padding-bottom: 15px;
+    box-shadow: 0px 1px 0px 0px rgba(24, 24, 24, 0.165);
+    border-collapse: collapse;
+
+}
+tr{
+    border-bottom: 10px solid #292929;
+}
+#rightlis{
+    font-weight: bold;
+    color: #844c3a;
+}
+p > b{
+    display: inline-block;
+    text-indent: 0px;
+}
+
+
+
