@@ -3,11 +3,11 @@
 
 @font-face {
   font-family: 'Fonte-1';
-  src: url('/Outfit-VariableFont_wght.ttf') format('truetype');
+  src: url('Outfit-VariableFont_wght.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Fonte-2';
-  src: url('/YoungSerif-Regular.ttf') format('truetype');
+  src: url('YoungSerif-Regular.ttf') format('truetype');
 }
 *{
     margin: 0;
